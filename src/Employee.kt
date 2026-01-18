@@ -1,4 +1,4 @@
-class Employee {
+class Employee{
     var fullname: String= ""
         get
     var position: String = ""
@@ -17,7 +17,7 @@ class Employee {
                 field = 50
             } else field = value
         }
-}
+    }
 
 fun main() {
     val employee = Employee()
